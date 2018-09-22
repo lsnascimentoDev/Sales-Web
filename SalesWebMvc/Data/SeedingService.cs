@@ -24,6 +24,7 @@ namespace SalesWebMvc.Data
                 return;
 
             }
+            else { 
 
 
             Department d1 = new Department(1, "Computers");
@@ -83,7 +84,7 @@ namespace SalesWebMvc.Data
 
 
 
-
+            }
         }
     }
 }
